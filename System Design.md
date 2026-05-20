@@ -25,3 +25,16 @@
 
 ## Manageer
 1. Generate detailed reports.
+   
+
+# Api Structure
+
+## Endpoints structure
+1. POST/Api/User
+2. POST/Api/author/login
+3. GET/Api/User
+4. GET/Api/User/{UserId}
+5. PUT/Api/User/{UserId}
+6. DELETE/Api/User/{UserId}
+   
+   
