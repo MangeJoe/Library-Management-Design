@@ -11,15 +11,19 @@ namespace LibraryApi.Entities
         public int UserID { get; set; }
 
         [Column("name")]
+        [MaxLength(255)]
         public string Name { get; set; }=string.Empty;
 
         [Column("phone_number")]
+        [MaxLength(20)]
         public string Phone_Number { get; set; }= string.Empty;
 
         [Column("email")]
+        [MaxLength(50)]
         public string Email { get; set; } = string.Empty;
 
         [Column("password")]
+        [MaxLength(50)]
         public string Password { get; set; }=string.Empty;
 
         [Column("created_at")]
