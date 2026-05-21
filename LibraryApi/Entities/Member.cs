@@ -3,13 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LibraryApi.Entities
 {
-    public class Member
+    public class Member :User
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Column("userID")]
-        public int UserID { get; set; }
-
         [Column("membership_id")]
         public string Membership_id { get; set; } = string.Empty;
 
